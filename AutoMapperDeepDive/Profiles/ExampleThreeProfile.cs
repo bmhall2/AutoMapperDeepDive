@@ -8,7 +8,7 @@ namespace AutoMapperDeepDive.Profiles
         public ExampleThreeProfile()
         {
             CreateMap<ComplexDomainObject, FlatViewModel>()
-                //.ReverseMap()
+                .ReverseMap()
                 ;
         }
     }

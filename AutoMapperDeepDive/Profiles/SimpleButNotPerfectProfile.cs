@@ -7,7 +7,7 @@ namespace AutoMapperDeepDive.Profiles
     {
         public SimpleButNotPerfectProfile()
         {
-            CreateMap<SimpleButNotPerfectDto, SimpleButNotPerfectViewModel>()
+            //CreateMap<SimpleButNotPerfectDto, SimpleButNotPerfectViewModel>()
                 //.ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.PrimaryKey))
                 //.ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.Name))
                 ;

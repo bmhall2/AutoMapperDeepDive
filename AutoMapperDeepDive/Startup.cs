@@ -19,6 +19,8 @@ namespace AutoMapperDeepDive
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            // AutoMapper - THIS IS ALL IT TAKES!
             services.AddAutoMapper();
         }
 
